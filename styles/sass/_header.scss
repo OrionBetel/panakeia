@@ -1,0 +1,24 @@
+.header {
+  padding: 2.45% 0;
+
+  &__logo {
+    float: left;
+  }
+
+  &__nav {
+    float: right;
+  }
+
+  &__burger {
+    display: none;
+
+    @media screen and (max-width: 921px) {
+      display: block;
+      float: right;
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $primary-font;
+  background-color: $light-color;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container::after {
+  @include clearfix;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  &__three {
+    width: 31.623%;
+    margin-bottom: 2em;
+
+    @media screen and (max-width: 768px) {
+      width: 100%;
+    }
+  }
+}
+
+.btn {
+  border: none;
+  border-radius: 24px;
+  font-family: $primary-font;
+  font-size: 18px;
+  text-decoration: none;
+}

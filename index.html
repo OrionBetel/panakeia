@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Panakeia</title>
+  <link rel="stylesheet" href="styles/styles.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <a class="logo header__logo" href="#">Panakeia</a>
+
+      <nav class="nav header__nav">
+        <a class="nav__item btn" href="#main">Fusce at</a>
+        <a class="nav__item btn" href="#section-news">Facilisis</a>
+        <a class="nav__item btn" href="#newsletter">Ante donec</a>
+        <a class="nav__item btn" href="#product-details">Blandit rhoncus</a>
+        <a class="nav__item btn" href="#footer">Placerat</a>
+
+        <button class="nav__close">x</button>
+      </nav>
+
+      <button class="burger header__burger" type="button">
+        <span class="burger__piece"></span>
+        <span class="burger__piece"></span>
+        <span class="burger__piece"></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <h1 class="main__title">Integer at tortor ut magna</h1>
+      <h3 class="main__subtitle">finibus lobortis sed quis tellus.</h3>
+
+      <div class="columns">
+        <section class="columns__three product">
+          <img class="product__image" src="images/food-1.png" alt="food">
+          <h2 class="product__title">Tincidunt</h2>
+          <p class="product__description">Phasellus arcu justo, ullamcorper non 
+            diam sit amet, luctus condimentum metus. Nullam tempus egestas 
+            efficitur. Sed quam dolor.
+          </p>
+        </section>
+
+        <section class="columns__three columns__three_spaced product">
+          <img class="product__image" src="images/food-2.png" alt="food">
+          <h2 class="product__title">Duis bibendum</h2>
+          <p class="product__description">Ut arcu arcu, faucibus eu risus blandit, 
+            pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit 
+            amet, luctus condimentum metus. In hac habitasse platea dictumst. 
+          </p>
+        </section>
+
+        <section class="columns__three product">
+          <img class="product__image" src="images/food-3.png" alt="food">
+          <h2 class="product__title">Donec ligula</h2>
+          <p class="product__description">Nullam tempus egestas efficitur. Sed 
+            quam dolor, vulputate sed mattis et, sodales quis orci. Ut arcu arcu, 
+            faucibus eu risus blandit.
+          </p>
+        </section>
+      </div>
+
+      <a class="btn main__btn" href="#">Read more</a>
+    </div>
+  </main>
+
+  <div class="section-news">
+    <h2 class="section-news__title">Our news</h2>
+
+    <div class="container">
+      <div class="columns">
+        <div class="columns__three">
+          <article class="news">
+            <img class="news__image" src="images/news-1.jpg" 
+              alt="drink and sandwich">
+            <h3 class="news__title">Lorem ipsum</h3>
+            <p class="news__description">Est a elit scelerisque vestibulum. 
+              Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis 
+              erat. Nulla vitae hendrerit odio.
+            </p>
+            <a class="btn news__btn" href="#">Read more</a>
+          </article>
+        </div>
+
+        <div class="columns__three">
+          <article class="news">
+            <img class="news__image" src="images/news-2.jpg" alt="cakes">
+            <h3 class="news__title">Lorem ipsum</h3>
+            <p class="news__description">Est a elit scelerisque vestibulum. 
+              Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis 
+              erat. Nulla vitae hendrerit odio.
+            </p>
+            <a class="btn news__btn" href="#">Read more</a>
+          </article>
+        </div>
+
+        <div class="columns__three">    
+          <article class="news">
+            <img class="news__image" src="images/news-3.jpg" alt="sandwiches">
+            <h3 class="news__title">Lorem ipsum</h3>
+            <p class="news__description">Est a elit scelerisque vestibulum. 
+              Donec est sem, lobortis sit amet imperdiet vel, pretium lobortis 
+              erat. Nulla vitae hendrerit odio.
+            </p>
+            <a class="btn news__btn" href="#">Read more</a>
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <section class="newsletter">
+    <h3 class="newsletter__title">Newsletter</h3>
+    <p class="newsletter__description">Ut arcu arcu, faucibus eu risus blandit, 
+      pulvinar viverra justo. Phasellus arcu justo, ullamcorper non diam sit 
+      amet, luctus condimentum metus
+    </p>
+    <form class="newsletter__form" action="#" method="GET">
+      <input class="newsletter__email" type="email" placeholder="email address">
+      <input class="newsletter__submit btn" type="submit" value="Sign up">
+    </form>
+  </section>
+
+  <div class="section-product-details">
+    <div class="container section-product-details__container">
+      <article class="product-details 
+                      section-product-details__item
+                      section-product-details__item_left">
+        <h3 class="product-details__title">Ipsum dolor sit amet</h3>
+        <p class="product-details__description">Nam accumsan nunc sit amet 
+          elementum sollicitudin. Integer vel lacus eget tortor lobortis 
+          tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+        </p>
+        <p class="product-details__description">Quisque ut erat ornare, feugiat 
+          turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et 
+          accumsan ex porta.
+        </p>
+        <a href="#" class="btn 
+                           product-details__btn 
+                           product-details__btn_orange">
+          Sign up
+        </a>
+      </article>
+    </div>
+
+    <div class="container">
+      <article class="product-details 
+                      section-product-details__item
+                      section-product-details__item_right">
+        <h3 class="product-details__title">Ipsum dolor sit amet</h3>
+        <p class="product-details__description">Nam accumsan nunc sit amet 
+          elementum sollicitudin. Integer vel lacus eget tortor lobortis 
+          tincidunt sed eu dolor. Phasellus cursus augue ac pulvinar cursus.
+        </p>
+        <p class="product-details__description">Quisque ut erat ornare, feugiat 
+          turpis a, fringilla felis. Nulla molestie lorem et orci sagittis, et 
+          accumsan ex porta.
+        </p>
+        <a href="#" class="btn 
+                           product-details__btn 
+                           product-details__btn_blue">
+          Sign up
+        </a>
+      </article>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="columns">
+        <ul class="columns__three footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Ad litora torquent</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Per conubia</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Nostra</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Per inceptos</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Himenaeos</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">In consectetur</a>
+          </li>
+        </ul>
+
+        <ul class="columns__three footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Taciti sociosqu</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Ad litora torquent</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Per conubia</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Himenaeos</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">In consectetur</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Nisi sed blandit</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Tincidunt</a>
+          </li>
+        </ul>
+
+        <ul class="columns__three footer__list">
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Nostra</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Per inceptos</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Himenaeos</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">In consectetur</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Nisi sed blandit</a>
+          </li>
+          <li class="footer__list-item">
+            <a href="#" class="footer__link">Tincidunt</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.min.js"></script>
+</body>
+</html>

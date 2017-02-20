@@ -1,0 +1,38 @@
+.section-product-details {
+  margin-top: 2px;
+  padding-top: 5.1%;
+  padding-bottom: 7%;
+  background-color: #fff;
+
+  @media screen and (max-width: 768px) {
+    text-align: center;  
+  }
+
+  &__container {
+    margin-bottom: 8.1%;
+  }
+
+  &__item {
+    width: 50%;
+
+    &_left {
+      float: left;
+
+       @media screen and (max-width: 768px) {
+         float: none;  
+       }
+    }
+
+    &_right {
+      float: right;
+
+      @media screen and (max-width: 768px) {
+        float: none;  
+      }
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 100%;  
+    }
+  }
+}

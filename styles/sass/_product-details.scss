@@ -1,0 +1,46 @@
+.product-details {
+  color: #191b29;
+
+  &__title {
+    margin: 0;
+    margin-bottom: 11px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 1.6;  
+  }
+
+  &__description {
+    margin: 0;
+    margin-bottom: 30px;
+    font-family: $secondary-font;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 1.875;
+  }
+
+  &__btn {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 0 72.5px;
+    font-size: 18px;
+    line-height: 2.889;
+    color: #fff;
+    transition: all .5s;
+
+    &_orange {
+      background-color: #dd4b2b;
+
+      &:hover {
+        background-color: #4b4e73;
+      }
+    }
+
+    &_blue {
+      background-color: #4b4e73;
+
+      &:hover {
+        background-color: #dd4b2b;
+      }
+    }
+  }
+}

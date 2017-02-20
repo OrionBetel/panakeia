@@ -1,0 +1,10 @@
+@mixin clearfix {
+  display: table;
+  content: '';
+  clear: both;
+}
+
+@mixin placeholder($color, $font-size) {
+  color: $color;
+  font-size: $font-size;
+}

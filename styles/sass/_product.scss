@@ -1,0 +1,29 @@
+.product {
+  text-align: center;
+
+  &__image {
+    border: 7px solid $light-color;
+    border-radius: 50%;
+  }
+
+  &__title {
+    margin-top: 7.084%;
+    margin-bottom: 4.9%;
+    color: #fff;
+    font-size: 30px;
+    line-height: 1.166;
+    font-weight: 700;
+
+    @media screen and (max-width: 768px) {
+      margin: 0;  
+    }
+  }
+
+  &__description {
+    margin: 0;
+    color: #fff;
+    font-size: 15px;
+    line-height: 2;
+    font-family: 'Roboto', Georgia, 'Times New Roman', Times, serif;
+  }
+}
